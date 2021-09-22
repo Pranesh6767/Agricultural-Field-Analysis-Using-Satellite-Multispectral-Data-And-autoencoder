@@ -1,0 +1,114 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #303030; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1b1b1b; 
+}
+.navbar-nav {
+    width: 100%;
+}
+.nav-item {
+    width: 20%;
+    text-align: center;
+}
+.navbar {
+    border-bottom: 1px solid #e2e2e2;
+}
+#active {
+    border-bottom: 2px solid #000000;
+    font-weight: bold;
+}
+.name {
+    font-family: 'Josefin Slab', serif;
+}
+hr.solid {
+    width: 60%;
+    border-top: 1px solid rgb(91, 91, 91);
+}
+tr {
+    color: #fff;
+}
+.side_image {
+    padding: 100px 0;
+}
+.side_image_rice {
+    padding: 50px 0;
+}
+a.logo {
+    border-color: #1b1b1b;
+}
+#active {
+    border-bottom: 2px solid #000000;
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+  }
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    color: #fff;
+}
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    transition: bottom 0.2s ease-in-out;
+    font-size: small;
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 325px) {
+    .side_image_rice {
+        display: none;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 326px) and (max-width: 600px) {
+    .side_image_rice, .side_image {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .side_image_rice, .side_image {
+        display: none;
+    } 
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+    
+}
