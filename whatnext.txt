@@ -1,3 +1,5 @@
 1. getting original data from satellite (without taking mean].
 2. dropping channels which does not contains any inforation about plant health.
-3. Developing time series prediction model.
+3. Developing time series prediction model. 
+	- Time series model for each spectral band
+	- or model for NDVI / MSAVI/ EVI only
